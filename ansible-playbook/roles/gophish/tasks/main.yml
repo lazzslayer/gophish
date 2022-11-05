@@ -22,7 +22,7 @@
 - name: Allow TCP 443 for Gophish.
   ufw:
     rule: allow
-    port: "443"
+    port: "8443"
     proto: tcp
 
 - name: Enable ufw.
