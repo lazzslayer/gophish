@@ -10,7 +10,7 @@ http {
     }
 
     server {
-        listen 443 ssl;
+        listen 8443 ssl;
         ssl_certificate {{ gophish_crt_path }};
         ssl_certificate_key {{ gophish_ssl_cert_path }};
         server_name {{gophish_domain}};
